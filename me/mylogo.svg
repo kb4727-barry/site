@@ -1,0 +1,30 @@
+<a href="assignments.html" aria-label="Go to assignments homepage">
+    <svg 
+      xmlns="http://www.w3.org/2000/svg"
+      width="200" height="200" viewBox="0 0 200 200"
+      role="img"
+      aria-labelledby="logoTitle logoDesc"
+    >
+      <title id="logoTitle">Kadiatou Barry — web design projects</title>
+      <desc id="logoDesc">A diamond-shaped coral logo with the initials KB knocked out in the center.</desc>
+
+      <defs>
+        <mask id="kb-mask">
+          <rect width="200" height="200" fill="white"/>
+          <text 
+            x="50%" y="50%" 
+            text-anchor="middle" 
+            dominant-baseline="middle" 
+            fill="black"
+            style="font-size:85px; font-weight:900; font-family:Montserrat, Arial Black, system-ui, sans-serif; letter-spacing:-0.02em"
+          >KB</text>
+        </mask>
+      </defs>
+
+      <path 
+        d="M100 10 L170 100 L100 190 L30 100 Z" 
+        fill="#ED719E" 
+        mask="url(#kb-mask)"
+      />
+    </svg>
+  </a>
