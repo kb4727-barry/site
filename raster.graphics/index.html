@@ -1,50 +1,71 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Raster Graphics</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+	<meta charset="UTF-8">
+	<title>All About Kadiatou</title>
+	 <link rel="stylesheet" href="style.css">
+	</head>
 <body>
-  <h1>Floating With Color Underwater :) </h1>
-  <p>This is a picture of me at Lake Como, Italy, wearing colorful clothing. This image, edited against the backdrop of the underground sea, complements the setting well. The vibrant colors of my clothes and the sea background make the page look lively and give it a joyful feel.</p>
-  <img
-    src="me-480.png"
-    alt=""
-    srcset="
-      me-480.PNG 1x,
-      me-960.PNG 2x,
-      me-1440.PNG 3x
-    "
-  />
+	<header>
+		<h1>All About Kadi</h1>
+		<nav>
+			<ul class="my-list flex-container">
+  				<li class="flex-box"><a href="#intro">Introduction</a></li>
+  				<li class="flex-box"><a href="#about">What you'll learn </a></li>
+ 				<li class="flex-box"><a href="#aboutme">Links to more</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+	    <section id="intro">
+			<h2>Introduction</h2>
+			<p>Hi there! I’m Kadiatou, and welcome to my little corner of the internet. Here, I share a bit about my journey, where I grew up,
+	 my school experiences, my background, and the things that make me, me. Thank you for stopping by! </p>
+	 <img src="mepicture.jpeg.png" alt="Picture of me" height="350" width="400">
+		</section>
+		<section id="about">
+			<h2>What you'll learn here: </h2>
+			<p>You'll get some insight about where I grew up, my school journey, my Fulani heritage, and the experiences that shaped who I am today. You’ll also learn about my current adventures as a Computer Science student at NYU and my time studying abroad in London. </p>
+		</section>
+		<section id="aboutme">
+			<h2>Links to learn more</h2>
+ 				<ul>
+					<li><a href="about.html" title="go to my about me page">About Kadi</a></li>
+					<li><a href="interest.html" title="go to my interests page">Kadi's Interests</a></li>
+				</ul>
+			</nav>
+		</section>
+	</main>
+	<footer>
+	<a href="assignments.html" aria-label="Go to assignments">
+    <svg 
+      xmlns="http://www.w3.org/2000/svg"
+      width="200" height="200" viewBox="0 0 200 200"
+      role="img"
+      aria-labelledby="logoTitle logoDesc"
+    >
+      <title id="logoTitle">Kadiatou Barry — web design projects</title>
+      <desc id="logoDesc">A diamond-shaped coral logo with the initials KB knocked out in the center.</desc>
+      <defs>
+        <mask id="kb-mask">
+          <rect width="200" height="200" fill="white"/>
+          <text 
+            x="50%" y="50%" 
+            text-anchor="middle" 
+            dominant-baseline="middle" 
+            fill="black"
+            style="font-size:85px; font-weight:900; font-family:Montserrat, Arial Black, system-ui, sans-serif; letter-spacing:-0.02em"
+          >KB</text>
+        </mask>
+      </defs>
+      <path 
+        d="M100 10 L170 100 L100 190 L30 100 Z" 
+        fill="#ED719E" 
+        mask="url(#kb-mask)"
+      />
+    </svg>
+  </a>
+		<p><a href="#">Terms and Conditions</a><p>
+		
 </body>
-<a href="index.html" aria-label="Go to assignments">
-  <svg 
-    xmlns="http://www.w3.org/2000/svg"
-    width="200" height="200" viewBox="0 0 200 200"
-    role="img"
-    aria-labelledby="logoTitle logoDesc"
-  >
-    <title id="logoTitle">Kadiatou Barry — web design projects</title>
-    <desc id="logoDesc">A diamond-shaped coral logo with the initials KB knocked out in the center.</desc>
-    <defs>
-      <mask id="kb-mask">
-        <rect width="200" height="200" fill="white"/>
-        <text 
-          x="50%" y="50%" 
-          text-anchor="middle" 
-          dominant-baseline="middle" 
-          fill="black"
-          style="font-size:85px; font-weight:900; font-family:Montserrat, Arial Black, system-ui, sans-serif; letter-spacing:-0.02em"
-        >KB</text>
-      </mask>
-    </defs>
-    <path 
-      d="M100 10 L170 100 L100 190 L30 100 Z" 
-      fill="#ED719E" 
-      mask="url(#kb-mask)"
-    />
-  </svg>
-</a>
 </html>
